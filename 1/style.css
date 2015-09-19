@@ -1,4 +1,59 @@
 /* Global override */
 html,body,h1,h2,h3,h4,p,div,a,ul,li,span{
-    border:1px solid black;
+	margin: 0;
+	padding: 0;
+	list-style:none;
+}
+/* Color */
+body{
+	background:rgb(240,240,240);
+	font-family:Georgia, serif;
+}
+h1,h2,h3,h4{
+	font-family: "Roboto Condensed",sans-serif;
+	margin-bottom:10px;
+}
+.list-heading{
+	font-weight: normal;
+	border-bottom: 2px solid black;
+	padding: 0 0 10px 0;
+}
+.list li{
+	border-bottom: 1px solid rgb(180,180,180);
+	padding: 10px 0 10px 0;
+	margin-bottom: 10px;
+}
+
+/* Layout */
+.container{
+	width: 80%;
+	margin:auto;
+}
+.lists{
+	background: white;
+	width:63.6666%;
+	float: left;
+	margin: 0 3% 0 0;
+	padding: 10px 20px;
+	box-sizing:border-box;
+}
+.description{
+	background: white;
+	width:33.3333%;
+	float:left;
+	padding: 10px 20px;
+	box-sizing:border-box;
+}
+.lists>.list{
+	width:50%;
+	float:left;
+}
+.staff-list{
+	width:90%;
+}
+.student-list{
+	width:90%;
+}
+.list-heading{
+	width:90%;
 }
